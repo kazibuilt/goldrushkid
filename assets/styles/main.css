@@ -1897,6 +1897,13 @@ button:hover .c-link_label::before,
 .c-image.-parallax,
 .c-image.-lazy-load {
   overflow: hidden;
+  box-shadow: -6px 12px 26px -9px rgba(0, 0, 0, 0.63);
+margin-bottom: 10px;
+background-color: var(--color-biege-darker);
+padding: 28px 32px 32px;
+box-sizing: border-box;
+color: #fff;
+overflow: hidden;
 }
 .c-image.-border-radius .c-image_wrap {
   -webkit-clip-path: inset(0 round var(--border-radius));
