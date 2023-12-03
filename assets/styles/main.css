@@ -369,12 +369,12 @@ button:hover,
 .c-button:hover {
   text-decoration: none;
 }
-@font-face {
+/* @font-face {
   font-display: swap;
   font-family: "F37Bolton";
   src: url("../fonts/F37Bolton-Bold.woff2") format("woff2"),
     url("../fonts/F37Bolton-Bold.woff") format("woff");
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
 }
 @font-face {
@@ -382,38 +382,76 @@ button:hover,
   font-family: "F37Bolton";
   src: url("../fonts/F37Bolton-Regular.woff2") format("woff2"),
     url("../fonts/F37Bolton-Regular.woff") format("woff");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-display: swap;
-  font-family: "SuisseIntlMono";
-  src: url("../fonts/SuisseIntlMono-Bold.woff2") format("woff2"),
-    url("../fonts/SuisseIntlMono-Bold.woff") format("woff");
-  font-weight: bold;
+  font-family: "GeistMono";
+  src: url("../fonts/GeistMono-Bold.woff2") format("woff2"),
+    url("../fonts/GeistMono-Bold.woff") format("woff");
+  font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-display: swap;
-  font-family: "SuisseIntlMono";
-  src: url("../fonts/SuisseIntlMono-Regular.woff2") format("woff2"),
-    url("../fonts/SuisseIntlMono-Regular.woff") format("woff");
-  font-weight: normal;
+  font-family: "GeistMono";
+  src: url("../fonts/GeistMono-Regular.woff2") format("woff2"),
+    url("../fonts/GeistMono-Regular.woff") format("woff");
+  font-weight: 400;
   font-style: normal;
-}
+} */
 @font-face {
   font-display: swap;
   font-family: "SohneSchmal";
   src: url("../fonts/SohneSchmal-Buch.woff2") format("woff2"),
     url("../fonts/SohneSchmal-Buch.woff") format("woff");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
 }
+
+@font-face {
+    font-family: GeistVariable;
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('/assets/fonts/GeistVariableVF.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: GeistMonoVariable;
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('/assets/fonts/GeistMonoVariableVF.woff2') format('woff2');
+  }
+  
+  @font-face { font-family:'Geist var'; font-style:normal; font-weight:100 900; font-display:swap; src: url('/assets/fonts/GeistVariableVF.woff2') format('woff2'); }
+  @font-face { font-family:'GeistMono var'; font-style:normal; font-weight:100 900; font-display:swap; src: url('/assets/fonts/GeistMonoVariableVF.woff2') format('woff2'); }
+  /* static fonts */
+  @font-face { font-family:Geist; font-style:normal; font-weight:100; font-display:swap; src:url("/assets/fonts/Geist-Thin.woff2") format("woff2"); }
+  @font-face { font-family:Geist; font-style:normal; font-weight:200; font-display:swap; src:url("/assets/fonts/Geist-UltraLight.woff2") format("woff2"); }
+  @font-face { font-family:Geist; font-style:normal; font-weight:300; font-display:swap; src:url("/assets/fonts/Geist-Light.woff2") format("woff2"); }
+  @font-face { font-family:Geist; font-style:normal; font-weight:400; font-display:swap; src:url("/assets/fonts/Geist-Regular.woff2") format("woff2"); }
+  @font-face { font-family:Geist; font-style:normal; font-weight:500; font-display:swap; src:url("/assets/fonts/Geist-Medium.woff2") format("woff2"); }
+  @font-face { font-family:Geist; font-style:normal; font-weight:600; font-display:swap; src:url("/assets/fonts/Geist-SemiBold.woff2") format("woff2"); }
+  @font-face { font-family:Geist; font-style:normal; font-weight:700; font-display:swap; src:url("/assets/fonts/Geist-Bold.woff2") format("woff2"); }
+  @font-face { font-family:Geist; font-style:normal; font-weight:800; font-display:swap; src:url("/assets/fonts/Geist-UltraBold.woff2") format("woff2"); }
+  @font-face { font-family:Geist; font-style:normal; font-weight:900; font-display:swap; src:url("/assets/fonts/Geist-Black.woff2") format("woff2"); }
+  @font-face { font-family:GeistMono; font-style:normal; font-weight:100; font-display:swap; src:url("/assets/fonts/GeistMono-Thin.woff2") format("woff2"); }
+  @font-face { font-family:GeistMono; font-style:normal; font-weight:200; font-display:swap; src:url("/assets/fonts/GeistMono-UltraLight.woff2") format("woff2"); }
+  @font-face { font-family:GeistMono; font-style:normal; font-weight:300; font-display:swap; src:url("/assets/fonts/GeistMono-Light.woff2") format("woff2"); }
+  @font-face { font-family:GeistMono; font-style:normal; font-weight:400; font-display:swap; src:url("/assets/fonts/GeistMono-Regular.woff2") format("woff2"); }
+  @font-face { font-family:GeistMono; font-style:normal; font-weight:500; font-display:swap; src:url("/assets/fonts/GeistMono-Medium.woff2") format("woff2"); }
+  @font-face { font-family:GeistMono; font-style:normal; font-weight:600; font-display:swap; src:url("/assets/fonts/GeistMono-SemiBold.woff2") format("woff2"); }
+  @font-face { font-family:GeistMono; font-style:normal; font-weight:700; font-display:swap; src:url("/assets/fonts/GeistMono-Bold.woff2") format("woff2"); }
+  @font-face { font-family:GeistMono; font-style:normal; font-weight:800; font-display:swap; src:url("/assets/fonts/GeistMono-UltraBold.woff2") format("woff2"); }
+  @font-face { font-family:GeistMono; font-style:normal; font-weight:900; font-display:swap; src:url("/assets/fonts/GeistMono-Black.woff2") format("woff2"); }
+  
 html {
   min-height: 100%;
   line-height: 1.5;
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   color: #000;
   background-color: var(--color-background);
@@ -1450,8 +1488,7 @@ swiper-container .swiper-notification {
   overflow: hidden;
 }
 .c-heading {
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
 }
@@ -1544,8 +1581,7 @@ swiper-container .swiper-notification {
   }
 }
 .c-text {
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
 }
@@ -1592,7 +1628,7 @@ swiper-container .swiper-notification {
   line-height: 1.4;
 }
 .c-text-mono {
-  font-family: "SuisseIntlMono", Menlo, Consolas, Monaco, Liberation Mono,
+  font-family: "GeistMono", Menlo, Consolas, Monaco, Liberation Mono,
     Lucida Console, monospace;
   font-weight: 400;
   line-height: 1.5;
@@ -1858,7 +1894,7 @@ html.is-first-loaded .c-button_label:nth-child(2)::before {
   flex-direction: row-reverse;
 }
 .c-link_label {
-  font-family: "SuisseIntlMono", Menlo, Consolas, Monaco, Liberation Mono,
+  font-family: "GeistMono", Menlo, Consolas, Monaco, Liberation Mono,
     Lucida Console, monospace;
   font-weight: 400;
   line-height: 1.5;
@@ -2024,8 +2060,7 @@ html.is-first-loaded .c-form {
 }
 .c-form_item_error {
   display: block;
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
   font-size: 0.875rem;
@@ -3089,8 +3124,7 @@ html.has-menu-open .c-menu {
 .c-menu-toggler_label {
   display: flex;
   flex-direction: column;
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
   font-size: 1rem;
@@ -4078,8 +4112,7 @@ html.is-first-loaded .c-accordions_item_content {
   }
 }
 .c-accordions.-has-indexes .c-accordions_item_text {
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
   line-height: 1.5;
@@ -4193,8 +4226,7 @@ html.is-first-loaded .c-accordions_item_content {
   padding: 3px 8px;
 }
 .c-table_column.-section-title {
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
   font-size: 1rem;
@@ -4468,8 +4500,7 @@ html.is-ready .c-hero-home_video {
     calc(0.0625rem * var(--spacing-small))
   );
   z-index: 4;
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
   line-height: 1.1;
@@ -5124,7 +5155,7 @@ html.is-first-loaded .c-carousel_thumbnail_item {
   z-index: 2;
 }
 .c-tile_date {
-  font-family: "SuisseIntlMono", Menlo, Consolas, Monaco, Liberation Mono,
+  font-family: "GeistMono", Menlo, Consolas, Monaco, Liberation Mono,
     Lucida Console, monospace;
   font-weight: 400;
   line-height: 1.5;
@@ -5145,8 +5176,7 @@ html.is-first-loaded .c-carousel_thumbnail_item {
 }
 .c-tile_title {
   line-height: 1.5;
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
 }
@@ -5319,8 +5349,7 @@ html.is-first-loaded .c-carousel_thumbnail_item {
   }
 }
 .c-footer_nav_label {
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
   margin-bottom: clamp(
@@ -5402,8 +5431,7 @@ html.is-first-loaded .c-carousel_thumbnail_item {
   }
 }
 .c-newsletter_title {
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
   margin-bottom: clamp(
@@ -5834,8 +5862,7 @@ html.is-first-loaded .c-carousel_thumbnail_item {
   width: 100%;
   height: 100%;
   z-index: 2;
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
   line-height: 1.1;
@@ -5893,8 +5920,7 @@ html.is-first-loaded .c-carousel_thumbnail_item {
 }
 .c-horizontal-panel_quote_content {
   margin: 0;
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
 }
@@ -5950,7 +5976,7 @@ html.is-first-loaded .c-carousel_thumbnail_item {
 .c-horizontal-panel_quote_caption {
   font-size: 1.125rem;
   line-height: 1.6;
-  font-family: "SuisseIntlMono", Menlo, Consolas, Monaco, Liberation Mono,
+  font-family: "GeistMono", Menlo, Consolas, Monaco, Liberation Mono,
     Lucida Console, monospace;
   font-weight: 400;
   line-height: 1.5;
@@ -6121,7 +6147,7 @@ html.is-first-loaded .c-horizontal-panel_text_content .char {
 .c-horizontal-panel_stats_label {
   font-size: 1.125rem;
   line-height: 1.6;
-  font-family: "SuisseIntlMono", Menlo, Consolas, Monaco, Liberation Mono,
+  font-family: "GeistMono", Menlo, Consolas, Monaco, Liberation Mono,
     Lucida Console, monospace;
   font-weight: 400;
   line-height: 1.5;
@@ -6174,8 +6200,7 @@ html.is-first-loaded .c-horizontal-panel_text_content .char {
   position: relative;
 }
 .c-fadein-paragraph_text {
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
   line-height: 1.1;
@@ -6247,8 +6272,7 @@ html.is-ready .c-fadein-paragraph_line_inner {
   position: relative;
 }
 .c-article-listing_header_title {
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
   line-height: 0.95;
@@ -6401,8 +6425,7 @@ html.is-first-loaded .c-pagination_number {
   justify-content: space-between;
 }
 .c-pagination_navigation_link {
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
   line-height: 0.95;
@@ -6773,8 +6796,7 @@ html.is-ready .c-editorial-hero_image {
 .c-wysiwyg ul,
 .c-wysiwyg ol,
 .c-wysiwyg table {
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
 }
@@ -6840,8 +6862,7 @@ html.is-ready .c-editorial-hero_image {
 .c-wysiwyg h5,
 .c-wysiwyg h6 {
   margin: 2.5em 0 1.5em 0;
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
 }
@@ -6949,8 +6970,7 @@ html.is-ready .c-editorial-hero_image {
     0;
 }
 .c-wysiwyg table td {
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
   font-size: 1rem;
@@ -7024,8 +7044,7 @@ html.is-ready .c-editorial-hero_image {
 }
 .c-wysiwyg blockquote * {
   width: 100%;
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
   line-height: 1.1;
@@ -7495,8 +7514,7 @@ html.js-focus-visible .c-video-player_toolbar-play:focus-visible::before {
   letter-spacing: 0.3em;
 }
 .c-text-big {
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
   line-height: 1.1;
@@ -8418,9 +8436,8 @@ html[data-template="preorder"] .c-hero-logo {
 }
 @media (max-width: 1199px) {
   .c-area-availability_text {
-    font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-      avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto,
-      noto, arial, sans-serif;
+    font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+    arial, sans-serif;
     font-weight: 400;
     line-height: 1.5;
   }
@@ -8437,9 +8454,8 @@ html[data-template="preorder"] .c-hero-logo {
 }
 @media (min-width: 1200px) {
   .c-area-availability_text {
-    font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-      avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto,
-      noto, arial, sans-serif;
+    font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+    arial, sans-serif;
     font-weight: 400;
     line-height: 1.1;
   }
@@ -8928,8 +8944,7 @@ html.js-focus-visible .c-tile-event_cta:focus-visible::before {
   align-items: flex-end;
 }
 .c-section-heading_title {
-  font-family: "F37Bolton", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+  font-family: "Geist", helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
     arial, sans-serif;
   font-weight: 400;
   line-height: 1.1;
@@ -9426,7 +9441,7 @@ html.is-first-loaded .c-job-offer_details_item::before {
   transform: scale3d(1, 1, 1);
 }
 .c-job-offer_details_item_inner {
-  font-family: "SuisseIntlMono", Menlo, Consolas, Monaco, Liberation Mono,
+  font-family: "GeistMono", Menlo, Consolas, Monaco, Liberation Mono,
     Lucida Console, monospace;
   font-weight: 400;
   line-height: 1.5;
