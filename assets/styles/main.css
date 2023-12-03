@@ -18,8 +18,8 @@
   --spacing-huge: 200;
   --spacing-enormous-mobile: 140;
   --spacing-enormous: 250;
-  --color-primary: #fa5c40;
-  --color-secondary: #29525e;
+  --color-primary: #915b90;
+  --color-secondary: #529057;
   --color-white: #fff;
   --header-height: 6.875rem;
   --button-height: 3.3125rem;
@@ -36,8 +36,8 @@
 }
 :root[data-theme="light"] {
   --color-text: #000;
-  --color-background: #f4f4f4;
-  --color-contrast: #f9f9f9;
+  --color-background: rgb(253, 253, 247);
+  --color-contrast: #f7f7f0;
   --color-border: #e8e8e8;
   --color-footer: #e8e8e8;
 }
