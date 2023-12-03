@@ -1699,7 +1699,7 @@ swiper-container .swiper-notification {
   color: currentColor;
 }
 .c-button.-stroke::before {
-  border: 1px solid currentColor;
+  border: 0px solid currentColor;
 }
 .c-button.-color-white {
   --color-text-hover: #fff;
