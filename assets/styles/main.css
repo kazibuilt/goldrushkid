@@ -1699,7 +1699,7 @@ swiper-container .swiper-notification {
   color: currentColor;
 }
 .c-button.-stroke::before {
-  border: 0px solid currentColor;
+  border: 1px solid currentColor;
 }
 .c-button.-color-white {
   --color-text-hover: #fff;
@@ -3202,7 +3202,7 @@ html.is-first-loaded .c-menu-toggler_icon::before {
   }
 }
 .c-menu-toggler_icon::after {
-  border: 1px solid currentColor;
+  border: 0px solid currentColor;
 }
 html.is-first-loaded .c-menu-toggler_icon::after {
   transition: opacity 0.3s cubic-bezier(0.165, 0.84, 0.44, 1),
